@@ -55,7 +55,7 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
     environment:
-      MYSQL_DATABASE: store_db
+      MYSQL_DATABASE: test_task_db
       MYSQL_ROOT_PASSWORD: root
       MYSQL_CHARSET: utf8
       MYSQL_COLLATION: utf8_unicode_ci
