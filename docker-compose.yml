@@ -1,0 +1,85 @@
+version: '3.8'
+
+services:
+  nginx:
+    build:
+      context: ./_docker/nginx
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/var/www
+    environment:
+      - "DB_HOST=mysql_db"
+    ports:
+      - "8080:80"
+    depends_on:
+      - php-fpm
+      - mysql_db
+    networks:
+      - app-network
+
+
+  php-fpm:
+    build:
+      context: ./_docker/php-fpm
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/var/www
+    environment:
+      - "DB_HOST=mysql_db"
+    depends_on:
+      - mysql_db
+      - node
+    networks:
+      - app-network
+
+
+  php-cli:
+    build:
+      context: ./_docker/php-cli
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/var/www
+    environment:
+      - "DB_HOST=mysql_db"
+      - "COMPOSER_MEMORY_LIMIT=-1"
+    depends_on:
+      - mysql_db
+    tty: true
+    networks:
+      - app-network
+
+
+  mysql_db:
+    image: mysql:8.0
+    restart: always
+    volumes:
+      - mysql_data:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: store_db
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_CHARSET: utf8
+      MYSQL_COLLATION: utf8_unicode_ci
+    ports:
+      - 8101:3306
+    networks:
+      - app-network
+
+
+  node:
+    image: node:18-alpine
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/var/www
+    working_dir: /var/www
+    tty: true
+    networks:
+      - app-network
+
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mysql_data:
