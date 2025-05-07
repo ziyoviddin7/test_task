@@ -36,7 +36,9 @@
                 <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
                 <input type="password" name="password_confirmation" class="form-control" id="exampleInputPassword1">
             </div>
-            <button type="submit" class="btn btn-primary">Register</button>
+            <a href="{{ route('user.login') }}">Login</a>
+
+            <button type="submit"  style="margin-left: 125px" class="btn btn-primary">Register</button>
         </form>
     </div>
 

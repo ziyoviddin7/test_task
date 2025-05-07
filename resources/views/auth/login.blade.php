@@ -28,7 +28,9 @@
                 <label for="exampleInputPassword1" class="form-label">Password</label>
                 <input name="password" type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <button type="submit" class="btn btn-primary">Login</button>
+            <a href="{{ route('user.register') }}">Register</a>
+
+            <button type="submit"  style="margin-left: 125px" class="btn btn-primary">Login</button>
         </form>
     </div>
 
