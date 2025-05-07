@@ -3,12 +3,12 @@
 namespace App\Http\Controllers\API\V1\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\API\V1\ApiLoginRequest;
-use App\Http\Requests\API\V1\ApiRegisterRequest;
+use App\Http\Requests\API\V1\Auth\ApiLoginRequest;
+use App\Http\Requests\API\V1\Auth\ApiRegisterRequest;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 
-class AuthController extends Controller
+class ApiAuthController extends Controller
 {
     public function register(ApiRegisterRequest $request)
     {

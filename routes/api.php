@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\API\V1\Auth\AuthController;
+use App\Http\Controllers\API\V1\Auth\ApiAuthController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -16,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::prefix('v1')->middleware(['throttle:api'])->group(function() {
-    Route::post('register', [AuthController::class, 'register']);
-    Route::post('login', [AuthController::class, 'login']);
+    Route::post('register', [ApiAuthController::class, 'register'])->name('api.register');
+    Route::post('login', [ApiAuthController::class, 'login'])->name('api.login');;
 });
