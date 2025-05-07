@@ -1,0 +1,16 @@
+0000000000000000000000000000000000000000 ad67e372314e18a3c513abd1a2f77b1baadb599d Ziyoviddin <univerziyo@email.com> 1746546201 +0400	commit (initial): d
+ad67e372314e18a3c513abd1a2f77b1baadb599d 0000000000000000000000000000000000000000 Ziyoviddin <univerziyo@email.com> 1746546204 +0400	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 ad67e372314e18a3c513abd1a2f77b1baadb599d Ziyoviddin <univerziyo@email.com> 1746546204 +0400	Branch: renamed refs/heads/master to refs/heads/main
+ad67e372314e18a3c513abd1a2f77b1baadb599d a385fc84ae6cab634efa815d064e5f473c26b4a8 Ziyoviddin <univerziyo@email.com> 1746556636 +0400	commit: Crate models and migrations
+a385fc84ae6cab634efa815d064e5f473c26b4a8 a385fc84ae6cab634efa815d064e5f473c26b4a8 Ziyoviddin <univerziyo@email.com> 1746556840 +0400	checkout: moving from main to crud
+a385fc84ae6cab634efa815d064e5f473c26b4a8 a385fc84ae6cab634efa815d064e5f473c26b4a8 Ziyoviddin <univerziyo@email.com> 1746559786 +0400	checkout: moving from crud to auth
+a385fc84ae6cab634efa815d064e5f473c26b4a8 0cbf620159649aca9c64883454b2671ed2eb2a53 Ziyoviddin <univerziyo@email.com> 1746563476 +0400	commit: Add Bootstrap 5
+0cbf620159649aca9c64883454b2671ed2eb2a53 d812eef25fb7c9c37ea554f3f062988c3046941b Ziyoviddin <univerziyo@email.com> 1746573261 +0400	commit: Create APi Auth
+d812eef25fb7c9c37ea554f3f062988c3046941b 344316f49313d58a789aefb4352915c878744fc7 Ziyoviddin <univerziyo@email.com> 1746577747 +0400	commit: Create Register, login, task and tag modal create
+344316f49313d58a789aefb4352915c878744fc7 91ad174ad294b2f1313c68683f0d196598b16bc5 Ziyoviddin <univerziyo@email.com> 1746578006 +0400	commit: End Auth
+91ad174ad294b2f1313c68683f0d196598b16bc5 a385fc84ae6cab634efa815d064e5f473c26b4a8 Ziyoviddin <univerziyo@email.com> 1746578011 +0400	checkout: moving from auth to main
+a385fc84ae6cab634efa815d064e5f473c26b4a8 91ad174ad294b2f1313c68683f0d196598b16bc5 Ziyoviddin <univerziyo@email.com> 1746578017 +0400	merge auth: Fast-forward
+91ad174ad294b2f1313c68683f0d196598b16bc5 a385fc84ae6cab634efa815d064e5f473c26b4a8 Ziyoviddin <univerziyo@email.com> 1746578048 +0400	checkout: moving from main to crud
+a385fc84ae6cab634efa815d064e5f473c26b4a8 91ad174ad294b2f1313c68683f0d196598b16bc5 Ziyoviddin <univerziyo@email.com> 1746578054 +0400	checkout: moving from crud to main
+91ad174ad294b2f1313c68683f0d196598b16bc5 91ad174ad294b2f1313c68683f0d196598b16bc5 Ziyoviddin <univerziyo@email.com> 1746578069 +0400	checkout: moving from main to crud
+91ad174ad294b2f1313c68683f0d196598b16bc5 33f2cfde81cfc6a21fde84aa778fb6e599ba1e05 Ziyoviddin <univerziyo@email.com> 1746587238 +0400	commit: Create Rest Api for Tag and Task

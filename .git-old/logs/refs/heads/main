@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 ad67e372314e18a3c513abd1a2f77b1baadb599d Ziyoviddin <univerziyo@email.com> 1746546201 +0400	commit (initial): d
+ad67e372314e18a3c513abd1a2f77b1baadb599d ad67e372314e18a3c513abd1a2f77b1baadb599d Ziyoviddin <univerziyo@email.com> 1746546204 +0400	Branch: renamed refs/heads/master to refs/heads/main
+ad67e372314e18a3c513abd1a2f77b1baadb599d a385fc84ae6cab634efa815d064e5f473c26b4a8 Ziyoviddin <univerziyo@email.com> 1746556636 +0400	commit: Crate models and migrations
+a385fc84ae6cab634efa815d064e5f473c26b4a8 91ad174ad294b2f1313c68683f0d196598b16bc5 Ziyoviddin <univerziyo@email.com> 1746578017 +0400	merge auth: Fast-forward

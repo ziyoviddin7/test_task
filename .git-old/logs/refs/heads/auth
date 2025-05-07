@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 a385fc84ae6cab634efa815d064e5f473c26b4a8 Ziyoviddin <univerziyo@email.com> 1746559786 +0400	branch: Created from HEAD
+a385fc84ae6cab634efa815d064e5f473c26b4a8 0cbf620159649aca9c64883454b2671ed2eb2a53 Ziyoviddin <univerziyo@email.com> 1746563476 +0400	commit: Add Bootstrap 5
+0cbf620159649aca9c64883454b2671ed2eb2a53 d812eef25fb7c9c37ea554f3f062988c3046941b Ziyoviddin <univerziyo@email.com> 1746573261 +0400	commit: Create APi Auth
+d812eef25fb7c9c37ea554f3f062988c3046941b 344316f49313d58a789aefb4352915c878744fc7 Ziyoviddin <univerziyo@email.com> 1746577747 +0400	commit: Create Register, login, task and tag modal create
+344316f49313d58a789aefb4352915c878744fc7 91ad174ad294b2f1313c68683f0d196598b16bc5 Ziyoviddin <univerziyo@email.com> 1746578006 +0400	commit: End Auth
